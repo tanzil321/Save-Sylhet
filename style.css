@@ -1,0 +1,44 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.first{
+    text-align: center;
+    color: aliceblue;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 10px 30px;
+    color: whitesmoke;
+    border-radius: 6px;
+}
+.top-banner{
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8%;    
+}
+.second{
+    text-align: center;
+}
+.donate{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.common{
+    background-color: coral;
+    margin: 5px;
+    padding: 20px 40px ;
+    
+}
+.common:hover{
+    border: 2px dotted red ;
+    background-color: orangered;
+}
