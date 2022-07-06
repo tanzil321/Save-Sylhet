@@ -17,6 +17,7 @@ h1{
     padding: 10px 30px;
     color: whitesmoke;
     border-radius: 6px;
+    box-shadow: 5px 5px 20px gray;
 }
 .top-banner{
     background-image: url(images/1.jpg);
@@ -28,17 +29,129 @@ h1{
     text-align: center;
 }
 .donate{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2%;
+   display: flex; 
+   justify-content: space-evenly;
+   padding: 2%;
+
 }
 .common{
-    background-color: coral;
+    background-color: antiquewhite;
     margin: 5px;
-    padding: 20px 40px ;
-    
+    padding: 20px 40px;
 }
 .common:hover{
-    border: 2px dotted red ;
-    background-color: orangered;
+    border: 2px;
+    background-color: wheat;
+    
+}
+input{
+    border-right: none;
+    border-left: none;
+    border-top: none;  
+}
+.amount{
+    text-align: center;
+    margin: 0;
+    
+}
+.amount input{
+    width: 800px;
+    font-size: 25px;
+    text-align: center;
+}
+.third{
+    text-align: center;
+    color: whitesmoke
+}
+.plans{
+    display: flex;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 5% 5%;
+}
+.second-banner{
+    background-image: url(images/helping-hands.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: none;
+    padding-bottom: 5%;
+    margin: 0;
+}    
+.same{
+    margin: 5px;
+    padding: 20px 40px;
+
+
+}
+.one{
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.two{
+    background-color: azure;
+    border-radius: 5px
+}
+.three{
+    background-color: rgb(245, 196, 245);
+    border-radius: 5px
+}
+.works{
+    text-align: center;
+}
+.fourth{
+    width: 50%;
+    padding: 3%;
+    margin: 7px;
+    text-align: center;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}
+.fourth img{
+    width: 50%;
+}
+.help{
+    display: flex;
+}
+
+.contact{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+    text-align: center;
+}
+.mail{
+    padding: 10%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.mail input{
+    width: 30%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-right: -2px;
+    background-color: antiquewhite;
+  
+    
+
+}
+.footer
+{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+    padding: 5%;
+    margin-top: 5%;    
+}
+.footer h2{
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;  
+}
+.orange{
+    color: orangered;
 }
